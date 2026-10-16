@@ -1,0 +1,47 @@
+# Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+dist/
+frontend/dist/
+build/
+
+# Environments & Secrets
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# Database and Model Artifacts
+*.db
+*.pkl
+database/*.db
+
+# Datasets
+*.csv
+dataset/
+
+# Archives & Large Zips
+*.zip
+*.tar.gz
+*.rar
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db

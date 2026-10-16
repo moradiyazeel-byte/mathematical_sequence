@@ -1,0 +1,1911 @@
+{
+  "summary": {
+    "total": 100,
+    "pred_accuracy_pct": 100.0,
+    "type_accuracy_pct": 100.0,
+    "avg_latency_ms": 135.03,
+    "total_time_ms": 13502.9
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "Arithmetic",
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected_next": 5,
+      "actual_next": 5,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 98.55
+    },
+    {
+      "id": 2,
+      "category": "Arithmetic",
+      "sequence": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "expected_next": 10,
+      "actual_next": 10,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 35.97
+    },
+    {
+      "id": 3,
+      "category": "Arithmetic",
+      "sequence": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "expected_next": 15,
+      "actual_next": 15,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 29.59
+    },
+    {
+      "id": 4,
+      "category": "Arithmetic",
+      "sequence": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "expected_next": 25,
+      "actual_next": 25,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 244.76
+    },
+    {
+      "id": 5,
+      "category": "Arithmetic",
+      "sequence": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "expected_next": 50,
+      "actual_next": 50,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 34.19
+    },
+    {
+      "id": 6,
+      "category": "Arithmetic",
+      "sequence": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expected_next": 6,
+      "actual_next": 6,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 31.06
+    },
+    {
+      "id": 7,
+      "category": "Arithmetic",
+      "sequence": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "expected_next": 11,
+      "actual_next": 11,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 29.64
+    },
+    {
+      "id": 8,
+      "category": "Arithmetic",
+      "sequence": [
+        1,
+        4,
+        7,
+        10,
+        13
+      ],
+      "expected_next": 16,
+      "actual_next": 16,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 265.47
+    },
+    {
+      "id": 9,
+      "category": "Arithmetic",
+      "sequence": [
+        1,
+        6,
+        11,
+        16,
+        21
+      ],
+      "expected_next": 26,
+      "actual_next": 26,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 250.44
+    },
+    {
+      "id": 10,
+      "category": "Arithmetic",
+      "sequence": [
+        1,
+        11,
+        21,
+        31,
+        41
+      ],
+      "expected_next": 51,
+      "actual_next": 51,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 38.77
+    },
+    {
+      "id": 11,
+      "category": "Arithmetic",
+      "sequence": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "expected_next": 8,
+      "actual_next": 8,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 32.24
+    },
+    {
+      "id": 12,
+      "category": "Arithmetic",
+      "sequence": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "expected_next": 13,
+      "actual_next": 13,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 30.23
+    },
+    {
+      "id": 13,
+      "category": "Arithmetic",
+      "sequence": [
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "expected_next": 18,
+      "actual_next": 18,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 27.89
+    },
+    {
+      "id": 14,
+      "category": "Arithmetic",
+      "sequence": [
+        3,
+        8,
+        13,
+        18,
+        23
+      ],
+      "expected_next": 28,
+      "actual_next": 28,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 286.14
+    },
+    {
+      "id": 15,
+      "category": "Arithmetic",
+      "sequence": [
+        3,
+        13,
+        23,
+        33,
+        43
+      ],
+      "expected_next": 53,
+      "actual_next": 53,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 78.28
+    },
+    {
+      "id": 16,
+      "category": "Arithmetic",
+      "sequence": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "expected_next": 10,
+      "actual_next": 10,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 38.14
+    },
+    {
+      "id": 17,
+      "category": "Arithmetic",
+      "sequence": [
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "expected_next": 15,
+      "actual_next": 15,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 67.1
+    },
+    {
+      "id": 18,
+      "category": "Arithmetic",
+      "sequence": [
+        5,
+        8,
+        11,
+        14,
+        17
+      ],
+      "expected_next": 20,
+      "actual_next": 20,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 181.72
+    },
+    {
+      "id": 19,
+      "category": "Arithmetic",
+      "sequence": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "expected_next": 30,
+      "actual_next": 30,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 212.55
+    },
+    {
+      "id": 20,
+      "category": "Arithmetic",
+      "sequence": [
+        5,
+        15,
+        25,
+        35,
+        45
+      ],
+      "expected_next": 55,
+      "actual_next": 55,
+      "pred_correct": true,
+      "expected_type": "arithmetic",
+      "actual_type": "arithmetic",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 189.37
+    },
+    {
+      "id": 21,
+      "category": "Geometric",
+      "sequence": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "expected_next": 32,
+      "actual_next": 32.0,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 245.45
+    },
+    {
+      "id": 22,
+      "category": "Geometric",
+      "sequence": [
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "expected_next": 243,
+      "actual_next": 243,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 153.14
+    },
+    {
+      "id": 23,
+      "category": "Geometric",
+      "sequence": [
+        1,
+        4,
+        16,
+        64,
+        256
+      ],
+      "expected_next": 1024,
+      "actual_next": 1024,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 33.38
+    },
+    {
+      "id": 24,
+      "category": "Geometric",
+      "sequence": [
+        1,
+        5,
+        25,
+        125,
+        625
+      ],
+      "expected_next": 3125,
+      "actual_next": 3125,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 34.98
+    },
+    {
+      "id": 25,
+      "category": "Geometric",
+      "sequence": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "expected_next": 64,
+      "actual_next": 64,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 185.91
+    },
+    {
+      "id": 26,
+      "category": "Geometric",
+      "sequence": [
+        2,
+        6,
+        18,
+        54,
+        162
+      ],
+      "expected_next": 486,
+      "actual_next": 486,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 169.32
+    },
+    {
+      "id": 27,
+      "category": "Geometric",
+      "sequence": [
+        2,
+        8,
+        32,
+        128,
+        512
+      ],
+      "expected_next": 2048,
+      "actual_next": 2048,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 182.97
+    },
+    {
+      "id": 28,
+      "category": "Geometric",
+      "sequence": [
+        2,
+        10,
+        50,
+        250,
+        1250
+      ],
+      "expected_next": 6250,
+      "actual_next": 6250,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 169.99
+    },
+    {
+      "id": 29,
+      "category": "Geometric",
+      "sequence": [
+        3,
+        6,
+        12,
+        24,
+        48
+      ],
+      "expected_next": 96,
+      "actual_next": 96,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 161.42
+    },
+    {
+      "id": 30,
+      "category": "Geometric",
+      "sequence": [
+        3,
+        9,
+        27,
+        81,
+        243
+      ],
+      "expected_next": 729,
+      "actual_next": 729,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 168.69
+    },
+    {
+      "id": 31,
+      "category": "Geometric",
+      "sequence": [
+        3,
+        12,
+        48,
+        192,
+        768
+      ],
+      "expected_next": 3072,
+      "actual_next": 3072,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 28.45
+    },
+    {
+      "id": 32,
+      "category": "Geometric",
+      "sequence": [
+        3,
+        15,
+        75,
+        375,
+        1875
+      ],
+      "expected_next": 9375,
+      "actual_next": 9375,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 167.06
+    },
+    {
+      "id": 33,
+      "category": "Geometric",
+      "sequence": [
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "expected_next": 160,
+      "actual_next": 160,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 164.58
+    },
+    {
+      "id": 34,
+      "category": "Geometric",
+      "sequence": [
+        5,
+        15,
+        45,
+        135,
+        405
+      ],
+      "expected_next": 1215,
+      "actual_next": 1215,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 179.24
+    },
+    {
+      "id": 35,
+      "category": "Geometric",
+      "sequence": [
+        5,
+        20,
+        80,
+        320,
+        1280
+      ],
+      "expected_next": 5120,
+      "actual_next": 5120,
+      "pred_correct": true,
+      "expected_type": "geometric",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 43.71
+    },
+    {
+      "id": 36,
+      "category": "Fibonacci",
+      "sequence": [
+        1,
+        1,
+        2,
+        3,
+        5
+      ],
+      "expected_next": 8,
+      "actual_next": 8,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 51.52
+    },
+    {
+      "id": 37,
+      "category": "Fibonacci",
+      "sequence": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "expected_next": 5,
+      "actual_next": 5,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 56.34
+    },
+    {
+      "id": 38,
+      "category": "Fibonacci",
+      "sequence": [
+        2,
+        3,
+        5,
+        8,
+        13
+      ],
+      "expected_next": 21,
+      "actual_next": 21,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 192.22
+    },
+    {
+      "id": 39,
+      "category": "Fibonacci",
+      "sequence": [
+        1,
+        3,
+        4,
+        7,
+        11
+      ],
+      "expected_next": 18,
+      "actual_next": 18,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 170.41
+    },
+    {
+      "id": 40,
+      "category": "Fibonacci",
+      "sequence": [
+        2,
+        5,
+        7,
+        12,
+        19
+      ],
+      "expected_next": 31,
+      "actual_next": 31,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 184.66
+    },
+    {
+      "id": 41,
+      "category": "Fibonacci",
+      "sequence": [
+        3,
+        5,
+        8,
+        13,
+        21
+      ],
+      "expected_next": 34,
+      "actual_next": 34,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 378.96
+    },
+    {
+      "id": 42,
+      "category": "Fibonacci",
+      "sequence": [
+        5,
+        8,
+        13,
+        21,
+        34
+      ],
+      "expected_next": 55,
+      "actual_next": 55,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 197.24
+    },
+    {
+      "id": 43,
+      "category": "Fibonacci",
+      "sequence": [
+        8,
+        13,
+        21,
+        34,
+        55
+      ],
+      "expected_next": 89,
+      "actual_next": 89,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 174.29
+    },
+    {
+      "id": 44,
+      "category": "Fibonacci",
+      "sequence": [
+        1,
+        4,
+        5,
+        9,
+        14
+      ],
+      "expected_next": 23,
+      "actual_next": 23,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 181.61
+    },
+    {
+      "id": 45,
+      "category": "Fibonacci",
+      "sequence": [
+        2,
+        2,
+        4,
+        6,
+        10
+      ],
+      "expected_next": 16,
+      "actual_next": 16,
+      "pred_correct": true,
+      "expected_type": "fibonacci",
+      "actual_type": "fibonacci",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 163.17
+    },
+    {
+      "id": 46,
+      "category": "Square",
+      "sequence": [
+        1,
+        4,
+        9,
+        16,
+        25
+      ],
+      "expected_next": 36,
+      "actual_next": 36,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 188.83
+    },
+    {
+      "id": 47,
+      "category": "Square",
+      "sequence": [
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "expected_next": 49,
+      "actual_next": 49,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 183.66
+    },
+    {
+      "id": 48,
+      "category": "Square",
+      "sequence": [
+        9,
+        16,
+        25,
+        36,
+        49
+      ],
+      "expected_next": 64,
+      "actual_next": 64,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 203.5
+    },
+    {
+      "id": 49,
+      "category": "Square",
+      "sequence": [
+        16,
+        25,
+        36,
+        49,
+        64
+      ],
+      "expected_next": 81,
+      "actual_next": 81,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 231.48
+    },
+    {
+      "id": 50,
+      "category": "Square",
+      "sequence": [
+        25,
+        36,
+        49,
+        64,
+        81
+      ],
+      "expected_next": 100,
+      "actual_next": 100,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 50.24
+    },
+    {
+      "id": 51,
+      "category": "Square",
+      "sequence": [
+        36,
+        49,
+        64,
+        81,
+        100
+      ],
+      "expected_next": 121,
+      "actual_next": 121,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 190.78
+    },
+    {
+      "id": 52,
+      "category": "Square",
+      "sequence": [
+        49,
+        64,
+        81,
+        100,
+        121
+      ],
+      "expected_next": 144,
+      "actual_next": 144,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 221.45
+    },
+    {
+      "id": 53,
+      "category": "Square",
+      "sequence": [
+        64,
+        81,
+        100,
+        121,
+        144
+      ],
+      "expected_next": 169,
+      "actual_next": 169,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 246.12
+    },
+    {
+      "id": 54,
+      "category": "Square",
+      "sequence": [
+        81,
+        100,
+        121,
+        144,
+        169
+      ],
+      "expected_next": 196,
+      "actual_next": 196,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 229.56
+    },
+    {
+      "id": 55,
+      "category": "Square",
+      "sequence": [
+        100,
+        121,
+        144,
+        169,
+        196
+      ],
+      "expected_next": 225,
+      "actual_next": 225,
+      "pred_correct": true,
+      "expected_type": "square",
+      "actual_type": "square",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 56.29
+    },
+    {
+      "id": 56,
+      "category": "Cube",
+      "sequence": [
+        1,
+        8,
+        27,
+        64,
+        125
+      ],
+      "expected_next": 216,
+      "actual_next": 216,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 208.59
+    },
+    {
+      "id": 57,
+      "category": "Cube",
+      "sequence": [
+        8,
+        27,
+        64,
+        125,
+        216
+      ],
+      "expected_next": 343,
+      "actual_next": 343,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 230.94
+    },
+    {
+      "id": 58,
+      "category": "Cube",
+      "sequence": [
+        27,
+        64,
+        125,
+        216,
+        343
+      ],
+      "expected_next": 512,
+      "actual_next": 512,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 159.56
+    },
+    {
+      "id": 59,
+      "category": "Cube",
+      "sequence": [
+        64,
+        125,
+        216,
+        343,
+        512
+      ],
+      "expected_next": 729,
+      "actual_next": 729,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 49.09
+    },
+    {
+      "id": 60,
+      "category": "Cube",
+      "sequence": [
+        125,
+        216,
+        343,
+        512,
+        729
+      ],
+      "expected_next": 1000,
+      "actual_next": 1000,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 161.6
+    },
+    {
+      "id": 61,
+      "category": "Cube",
+      "sequence": [
+        216,
+        343,
+        512,
+        729,
+        1000
+      ],
+      "expected_next": 1331,
+      "actual_next": 1331,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 218.07
+    },
+    {
+      "id": 62,
+      "category": "Cube",
+      "sequence": [
+        343,
+        512,
+        729,
+        1000,
+        1331
+      ],
+      "expected_next": 1728,
+      "actual_next": 1728,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 184.41
+    },
+    {
+      "id": 63,
+      "category": "Cube",
+      "sequence": [
+        512,
+        729,
+        1000,
+        1331,
+        1728
+      ],
+      "expected_next": 2197,
+      "actual_next": 2197,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 189.01
+    },
+    {
+      "id": 64,
+      "category": "Cube",
+      "sequence": [
+        729,
+        1000,
+        1331,
+        1728,
+        2197
+      ],
+      "expected_next": 2744,
+      "actual_next": 2744,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 280.45
+    },
+    {
+      "id": 65,
+      "category": "Cube",
+      "sequence": [
+        1000,
+        1331,
+        1728,
+        2197,
+        2744
+      ],
+      "expected_next": 3375,
+      "actual_next": 3375,
+      "pred_correct": true,
+      "expected_type": "cube",
+      "actual_type": "cube",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 494.0
+    },
+    {
+      "id": 66,
+      "category": "Triangular",
+      "sequence": [
+        1,
+        3,
+        6,
+        10,
+        15
+      ],
+      "expected_next": 21,
+      "actual_next": 21,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 418.31
+    },
+    {
+      "id": 67,
+      "category": "Triangular",
+      "sequence": [
+        3,
+        6,
+        10,
+        15,
+        21
+      ],
+      "expected_next": 28,
+      "actual_next": 28,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 245.07
+    },
+    {
+      "id": 68,
+      "category": "Triangular",
+      "sequence": [
+        6,
+        10,
+        15,
+        21,
+        28
+      ],
+      "expected_next": 36,
+      "actual_next": 36,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 45.0
+    },
+    {
+      "id": 69,
+      "category": "Triangular",
+      "sequence": [
+        10,
+        15,
+        21,
+        28,
+        36
+      ],
+      "expected_next": 45,
+      "actual_next": 45,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 258.28
+    },
+    {
+      "id": 70,
+      "category": "Triangular",
+      "sequence": [
+        15,
+        21,
+        28,
+        36,
+        45
+      ],
+      "expected_next": 55,
+      "actual_next": 55,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 70.45
+    },
+    {
+      "id": 71,
+      "category": "Triangular",
+      "sequence": [
+        21,
+        28,
+        36,
+        45,
+        55
+      ],
+      "expected_next": 66,
+      "actual_next": 66,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 234.74
+    },
+    {
+      "id": 72,
+      "category": "Triangular",
+      "sequence": [
+        28,
+        36,
+        45,
+        55,
+        66
+      ],
+      "expected_next": 78,
+      "actual_next": 78,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 231.15
+    },
+    {
+      "id": 73,
+      "category": "Triangular",
+      "sequence": [
+        36,
+        45,
+        55,
+        66,
+        78
+      ],
+      "expected_next": 91,
+      "actual_next": 91,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 53.98
+    },
+    {
+      "id": 74,
+      "category": "Triangular",
+      "sequence": [
+        45,
+        55,
+        66,
+        78,
+        91
+      ],
+      "expected_next": 105,
+      "actual_next": 105,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 292.39
+    },
+    {
+      "id": 75,
+      "category": "Triangular",
+      "sequence": [
+        55,
+        66,
+        78,
+        91,
+        105
+      ],
+      "expected_next": 120,
+      "actual_next": 120,
+      "pred_correct": true,
+      "expected_type": "triangular",
+      "actual_type": "triangular",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 74.09
+    },
+    {
+      "id": 76,
+      "category": "Factorial",
+      "sequence": [
+        1,
+        2,
+        6,
+        24,
+        120
+      ],
+      "expected_next": 720,
+      "actual_next": 720,
+      "pred_correct": true,
+      "expected_type": "factorial",
+      "actual_type": "factorial",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 67.44
+    },
+    {
+      "id": 77,
+      "category": "Factorial",
+      "sequence": [
+        2,
+        6,
+        24,
+        120,
+        720
+      ],
+      "expected_next": 5040,
+      "actual_next": 5040,
+      "pred_correct": true,
+      "expected_type": "factorial",
+      "actual_type": "factorial",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 75.87
+    },
+    {
+      "id": 78,
+      "category": "Factorial",
+      "sequence": [
+        6,
+        24,
+        120,
+        720,
+        5040
+      ],
+      "expected_next": 40320,
+      "actual_next": 40320,
+      "pred_correct": true,
+      "expected_type": "factorial",
+      "actual_type": "factorial",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 87.55
+    },
+    {
+      "id": 79,
+      "category": "Factorial",
+      "sequence": [
+        24,
+        120,
+        720,
+        5040,
+        40320
+      ],
+      "expected_next": 362880,
+      "actual_next": 362880,
+      "pred_correct": true,
+      "expected_type": "factorial",
+      "actual_type": "factorial",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 53.17
+    },
+    {
+      "id": 80,
+      "category": "Factorial",
+      "sequence": [
+        120,
+        720,
+        5040,
+        40320,
+        362880
+      ],
+      "expected_next": 3628800,
+      "actual_next": 3628800,
+      "pred_correct": true,
+      "expected_type": "factorial",
+      "actual_type": "factorial",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 86.43
+    },
+    {
+      "id": 81,
+      "category": "Prime",
+      "sequence": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "expected_next": 13,
+      "actual_next": 13,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 54.96
+    },
+    {
+      "id": 82,
+      "category": "Prime",
+      "sequence": [
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "expected_next": 17,
+      "actual_next": 17,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 75.43
+    },
+    {
+      "id": 83,
+      "category": "Prime",
+      "sequence": [
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "expected_next": 19,
+      "actual_next": 19,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 76.23
+    },
+    {
+      "id": 84,
+      "category": "Prime",
+      "sequence": [
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "expected_next": 23,
+      "actual_next": 23,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 106.46
+    },
+    {
+      "id": 85,
+      "category": "Prime",
+      "sequence": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "expected_next": 29,
+      "actual_next": 29,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 62.21
+    },
+    {
+      "id": 86,
+      "category": "Prime",
+      "sequence": [
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "expected_next": 31,
+      "actual_next": 31,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 78.5
+    },
+    {
+      "id": 87,
+      "category": "Prime",
+      "sequence": [
+        17,
+        19,
+        23,
+        29,
+        31
+      ],
+      "expected_next": 37,
+      "actual_next": 37,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 58.45
+    },
+    {
+      "id": 88,
+      "category": "Prime",
+      "sequence": [
+        19,
+        23,
+        29,
+        31,
+        37
+      ],
+      "expected_next": 41,
+      "actual_next": 41,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 61.06
+    },
+    {
+      "id": 89,
+      "category": "Prime",
+      "sequence": [
+        23,
+        29,
+        31,
+        37,
+        41
+      ],
+      "expected_next": 43,
+      "actual_next": 43,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 80.55
+    },
+    {
+      "id": 90,
+      "category": "Prime",
+      "sequence": [
+        29,
+        31,
+        37,
+        41,
+        43
+      ],
+      "expected_next": 47,
+      "actual_next": 47,
+      "pred_correct": true,
+      "expected_type": "prime",
+      "actual_type": "prime",
+      "type_correct": true,
+      "confidence": 98.0,
+      "latency_ms": 70.41
+    },
+    {
+      "id": 91,
+      "category": "Power",
+      "sequence": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "expected_next": 64,
+      "actual_next": 64,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 41.68
+    },
+    {
+      "id": 92,
+      "category": "Power",
+      "sequence": [
+        9,
+        27,
+        81,
+        243,
+        729
+      ],
+      "expected_next": 2187,
+      "actual_next": 2187,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 29.85
+    },
+    {
+      "id": 93,
+      "category": "Power",
+      "sequence": [
+        64,
+        256,
+        1024,
+        4096,
+        16384
+      ],
+      "expected_next": 65536,
+      "actual_next": 65536,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 59.13
+    },
+    {
+      "id": 94,
+      "category": "Power",
+      "sequence": [
+        5,
+        25,
+        125,
+        625,
+        3125
+      ],
+      "expected_next": 15625,
+      "actual_next": 15625,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 53.92
+    },
+    {
+      "id": 95,
+      "category": "Power",
+      "sequence": [
+        36,
+        216,
+        1296,
+        7776,
+        46656
+      ],
+      "expected_next": 279936,
+      "actual_next": 279936,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 34.15
+    },
+    {
+      "id": 96,
+      "category": "Power",
+      "sequence": [
+        343,
+        2401,
+        16807,
+        117649,
+        823543
+      ],
+      "expected_next": 5764801,
+      "actual_next": 5764801,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 63.08
+    },
+    {
+      "id": 97,
+      "category": "Power",
+      "sequence": [
+        8,
+        64,
+        512,
+        4096,
+        32768
+      ],
+      "expected_next": 262144,
+      "actual_next": 262144,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 50.82
+    },
+    {
+      "id": 98,
+      "category": "Power",
+      "sequence": [
+        81,
+        729,
+        6561,
+        59049,
+        531441
+      ],
+      "expected_next": 4782969,
+      "actual_next": 4782969,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 30.43
+    },
+    {
+      "id": 99,
+      "category": "Power",
+      "sequence": [
+        1000,
+        10000,
+        100000,
+        1000000,
+        10000000
+      ],
+      "expected_next": 100000000,
+      "actual_next": 100000000,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 53.36
+    },
+    {
+      "id": 100,
+      "category": "Power",
+      "sequence": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "expected_next": 64,
+      "actual_next": 64,
+      "pred_correct": true,
+      "expected_type": "power",
+      "actual_type": "geometric",
+      "type_correct": true,
+      "confidence": 100.0,
+      "latency_ms": 49.86
+    }
+  ]
+}
