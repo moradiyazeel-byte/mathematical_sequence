@@ -22,6 +22,7 @@ env/
 # Database and Model Artifacts
 *.db
 *.pkl
+!backend/models/sequence_model.pkl
 database/*.db
 
 # Datasets

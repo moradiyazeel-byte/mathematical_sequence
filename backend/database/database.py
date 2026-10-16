@@ -18,12 +18,20 @@ import logging
 import sqlite3
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from typing  import Any
-
+from typing import Any
 from flask import g, current_app
-import psycopg2
-from psycopg2.extras import DictCursor
-from psycopg2 import Error as PGError, IntegrityError as PGIntegrityError
+
+try:
+    import psycopg2
+    from psycopg2.extras import DictCursor
+    from psycopg2 import Error as PGError, IntegrityError as PGIntegrityError
+except ImportError:
+    psycopg2 = None
+    DictCursor = None
+    class PGError(Exception):
+        pass
+    class PGIntegrityError(Exception):
+        pass
 
 
 logger = logging.getLogger("seqpredict.database")
@@ -59,6 +67,8 @@ def get_connection():
     is_pg = _is_postgres()
     
     if is_pg:
+        if psycopg2 is None:
+            raise RuntimeError("psycopg2 is required for PostgreSQL. Please install psycopg2-binary.")
         if "db_pg" not in g:
             dsn = _db_path()
             conn = psycopg2.connect(dsn)
@@ -100,6 +110,8 @@ def _get_conn():
     except RuntimeError:
         dsn = _db_path()
         if dsn.startswith("postgresql://") or dsn.startswith("postgres://"):
+            if psycopg2 is None:
+                raise RuntimeError("psycopg2 is required for PostgreSQL. Please install psycopg2-binary.")
             return psycopg2.connect(dsn)
         else:
             Path(dsn).parent.mkdir(parents=True, exist_ok=True)
