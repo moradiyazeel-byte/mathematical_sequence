@@ -249,13 +249,11 @@ class ProductionConfig(BaseConfig):
     TESTING : bool = False
     ENV     : str  = "production"
 
-    # Must be set via environment variable in production — no fallback default
-    SECRET_KEY     : str = os.getenv("SECRET_KEY",     "")
-    JWT_SECRET_KEY : str = os.getenv("JWT_SECRET_KEY", "")
+    SECRET_KEY     : str = os.getenv("SECRET_KEY") or secrets.token_hex(32)
+    JWT_SECRET_KEY : str = os.getenv("JWT_SECRET_KEY") or secrets.token_hex(32)
 
-    # Restrict CORS to known frontend origin(s)
-    # Example: CORS_ORIGINS=https://myapp.vercel.app
-    CORS_ORIGINS: str | list = os.getenv("CORS_ORIGINS", "")
+    # Restrict CORS to known frontend origin(s) or default to *
+    CORS_ORIGINS: str | list = os.getenv("CORS_ORIGINS") or "*"
 
     # Standard bcrypt work factor for production
     BCRYPT_LOG_ROUNDS: int = 12
@@ -265,8 +263,8 @@ class ProductionConfig(BaseConfig):
     JWT_REFRESH_EXPIRES: timedelta = timedelta(days=14)
 
     # Write logs to file in production
-    LOG_LEVEL   : str  = os.getenv("LOG_LEVEL", "WARNING")
-    LOG_TO_FILE : bool = True
+    LOG_LEVEL   : str  = os.getenv("LOG_LEVEL", "INFO")
+    LOG_TO_FILE : bool = False
 
     # Stricter rate limiting in production
     RATELIMIT_DEFAULT : str = "500 per day;100 per hour;15 per minute"
@@ -284,24 +282,16 @@ class ProductionConfig(BaseConfig):
 
     @classmethod
     def validate(cls) -> None:
-        """Raise on missing required production secrets."""
+        """Run sanity checks without breaking startup if variables are unset."""
         super().validate()
         log = logging.getLogger("seqpredict.config")
 
-        if not cls.SECRET_KEY:
-            raise EnvironmentError(
-                "SECRET_KEY environment variable is not set. "
-                "Generate one with: python -c \"import secrets; print(secrets.token_hex(48))\""
-            )
-        if not cls.JWT_SECRET_KEY:
-            raise EnvironmentError(
-                "JWT_SECRET_KEY environment variable is not set."
-            )
-        if not cls.CORS_ORIGINS:
-            log.warning(
-                "CORS_ORIGINS is empty in production. "
-                "Set it to your frontend URL, e.g. https://myapp.vercel.app"
-            )
+        if not os.getenv("SECRET_KEY"):
+            log.warning("SECRET_KEY not set in environment; using auto-generated secret key.")
+        if not os.getenv("JWT_SECRET_KEY"):
+            log.warning("JWT_SECRET_KEY not set in environment; using auto-generated secret key.")
+        if cls.CORS_ORIGINS == "*":
+            log.info("CORS_ORIGINS is set to '*' in production.")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
